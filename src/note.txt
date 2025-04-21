@@ -1,0 +1,146 @@
+THIS FILE WILL WE REMOVED AT THE TIME OF DEPLOYEMENT, THIS IS JUST TO GET AN IDEA OF THE PROJECT AND THE THINGS WE DO IN IT.
+
+
+
+github features
+------------
+1) to store data
+2) to share data with the team
+3) version control system
+4) host minor web application(html, css,js)
+
+git - Tool to do operation in github
+github - cloud based service
+
+storage - repository
+git - local repository
+github - remote repository
+
+git operations
+--------------
+1)push - to add data to github
+2)clone - to download the entire content from the git hub, data is sent from remote repository to local repository
+3)pull - download the updated data only,data is sent from remote repository to local repository   
+
+steps for leader
+----------------
+1)settings > collabrators > confirm password > add people > github id of the people 
+2)pull requests> new pull request > go through eah request > create pull request > add description if needed > create pull request >merge pull request > confirm merge
+
+steps for members
+----------------
+
+use the following steps for the first TIME
+-----------------------------------------
+1)check the mail > view the invitation > accept the invitation 
+to clone the project -
+2)create a folder in your computer -open cmd from it- git clone url
+in our case the url is https://github.com/fazahafami/pawMart_frontend.git
+3)cd pawMart_frontend
+4)code .
+5)npm install
+6)npm run dev
+
+
+EVERYDAY AFTER MAKING THE CHANGES
+------------------------
+1)in cmd - git init 
+2)git add .
+3)git commit -m "the changes you made"
+4)git branch branchname(yourname)
+5)git branch
+6)git checkout branchname
+7)git branch
+8)git push origin branchname
+
+
+use the following steps everyday before making changes
+-----------------------------------------------------
+1)go your created  project folder - open cmd 
+git pull url
+url- https://github.com/fazahafami/pawMart_frontend.git
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PROJECT sTRUCTURE
+-----------------
+
+
+frontend/
+├── public/
+│
+├── src/
+│   ├── assets/                    # Images, icons, fonts
+│   │   ├── images/
+│   │   └── logos/
+│
+│   ├── components/                # Reusable UI components
+│   │   ├── Header.jsx
+│   │   ├── Footer.jsx
+│   │   ├── PetCard.jsx
+│   │   ├── SupplyCard.jsx
+│   │   ├── CartItem.jsx
+│   │   ├── FavouriteItem.jsx
+│   │   ├── ReviewForm.jsx
+│   │   └── ReviewList.jsx
+│
+│   ├── pages/                     # Full page-level views
+│   │   ├── LandingPage.jsx
+│   │   ├── Login.jsx
+│   │   ├── ShopPets.jsx
+│   │   ├── ShopSupplies.jsx
+│   │   ├── Cart.jsx
+│   │   ├── Favourites.jsx
+│   │   └── AdminDashboard.jsx
+│
+│   ├── context/                   # Global state management (Context API)(not created)
+│   │   ├── AuthContext.js         # Login, authentication, user data
+│   │   └── CartContext.js         # Cart management
+│
+│   ├── services/                  # API-related files
+│   │   ├── allApi.js              # All API functions (GET, POST, PUT, DELETE)
+│   │   ├── commonApi.js           # Common axios logic
+│   │   └── serverurl.js           # Backend URL
+│
+│   ├── utils/                     # Utility functions(not created)
+│   │   ├── auth.js                # Login check, token helpers
+│   │   └── format.js              # Price/date formatters, etc.
+│
+│   ├── App.js                     # Main app component
+│   ├── routes.js                  # Central routing setup (not created)
+│   ├── index.js                   # Entry point
+│   ├── App.css                    # Component-level styling
+│   └── index.css                  # Global styles
+│
+├── .env                           # (to create) API_URL = http://localhost:3001
+├── .gitignore
+├── index.html                     # main html file
+├── package.json
+├── package-lock.json
+└── README.md
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Component File      	Purpose
+-------------------------------------
+PetCard.js	            For displaying each pet (image, breed, description, etc.)
+SupplyCard.js	        For showing pet supplies (image, name, price, etc.)
+ReviewForm.js	        For submitting reviews
+ReviewList.js	        For displaying all reviews
+CartItem.js             For rendering items inside the Cart
+FavouriteItem.js	    For rendering each favourite item
+
+
+
+Folder/File	            Purpose
+------------------------------------
+components/	            Contains reusable pieces like Cards, Navbar, Review form etc.
+pages/	                These are main pages you route to (e.g., Shop, Cart, Login)
+context/	            Manages global state using React Context API
+services/api.js	        Central place to handle all Axios API calls to backend
+utils/	                Handy utility functions (e.g., formatting prices, dates)
+routes.js	            Where you define all your routes with react-router-dom
+.env	                Define REACT_APP_API_URL=http://localhost:3001 for cleaner API calls
+App.js	                Main component holding routes and layout
+index.js	            Starting point of the React app
