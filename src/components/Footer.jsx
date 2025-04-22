@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faXTwitter, faFacebook, faWhatsapp, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { Link } from 'react-router-dom';
 import '../App.css'; 
+import Logo from '../assets/Logo1.png'
 
 function Footer() {
   return (
@@ -16,7 +17,7 @@ function Footer() {
               <Link to={'/'}>
                 <img
                   alt="logo"
-                  src="./src/assets/Logo1.png"
+                  src={Logo}
                   width="130"
                   height="70"
                   className="d-inline-block align-top"
