@@ -23,7 +23,6 @@ function App() {
   return (
     <>
      <Header/>
-     <h1 className='text-primary'><FontAwesomeIcon icon={faHouse} /> PawMart</h1>
      <Routes>
       <Route path='/' element= {<LandingPage/>}/>
       <Route path='/login' element= {<Login/>}/>
