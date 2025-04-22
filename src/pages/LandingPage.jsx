@@ -3,6 +3,9 @@ import { Container, Row, Col, Button, Carousel, Modal, Form } from 'react-bootst
 import '../App.css';
 import { Link } from 'react-router-dom';
 import ReviewCard from '../components/ReviewCard';
+import firstImg from '../assets/landingFirstImg.jpg'
+import secImg from '../assets/landingSecondImg.jpg'
+import thirdImg from '../assets/landingThirdImg.jpg'
 
 function LandingPage() {
   const [showModal, setShowModal] = useState(false);
@@ -19,7 +22,7 @@ function LandingPage() {
             <Carousel.Item interval={5000}>
               <img
                 className="d-block w-100 hero-image"
-                src="https://i.pinimg.com/736x/be/c9/cc/bec9cc8b9cdbe891f18888067f36b5ab.jpg" // first image
+                src={firstImg} // first image
                 alt="First slide"
               />
               <Carousel.Caption>
@@ -33,7 +36,7 @@ function LandingPage() {
             <Carousel.Item interval={5000}>
               <img
                 className="d-block w-100 hero-image"
-                src="https://i.pinimg.com/474x/73/a0/6c/73a06cdef60ae8084364d64701e24d28.jpg" // second image
+                src={secImg} // second image
                 alt="Second slide"
               />
               <Carousel.Caption>
@@ -47,7 +50,7 @@ function LandingPage() {
             <Carousel.Item interval={5000}>
               <img
                 className="d-block w-100 hero-image"
-                src="https://i.pinimg.com/474x/83/dc/a4/83dca4efe76a74d77f4015fbe906ea6a.jpg" // third image
+                src={thirdImg} // third image
                 alt="Third slide"
               />
               <Carousel.Caption>

@@ -1,10 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import '../App.css'
-
+import bg from '../assets/loginFormBg.jpg'
 function Login() {
   const backgroundStyle = {
-    backgroundImage: `url('https://img.freepik.com/free-photo/3d-rendering-cartoon-dog-portrait_23-2150907024.jpg?semt=ais_hybrid&w=740')`,
+    backgroundImage: `url(${bg})`,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     minHeight: '100vh',
