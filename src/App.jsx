@@ -13,6 +13,7 @@ import PetDetails from './pages/PetDetails';
 import Register from './pages/Register';
 import ShopPets from './pages/ShopPets';
 import ShopSupplies from './pages/ShopSupplies'
+import ScrollToTopButton from './components/ScrollToTopButton';
 
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
      </Routes>
      
      <Footer/>
+     <ScrollToTopButton />
     </>
   )
 }
