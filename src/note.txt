@@ -81,8 +81,8 @@ frontend/
 │   │   ├── SupplyCard.jsx
 │   │   ├── CartItem.jsx
 │   │   ├── FavouriteItem.jsx
-│   │   ├── ReviewForm.jsx
-│   │   └── ReviewList.jsx
+│   │   ├── ReviewCard.jsx
+│   │   └── ScrollToTopButton.jsx  # for scrolling button
 │
 │   ├── pages/                     # Full page-level views
 │   │   ├── LandingPage.jsx
@@ -90,7 +90,10 @@ frontend/
 │   │   ├── ShopPets.jsx
 │   │   ├── ShopSupplies.jsx
 │   │   ├── Cart.jsx
-│   │   ├── Favourites.jsx
+│   │   ├── Favourites.jsx 
+│   │   ├── Register.jsx
+│   │   ├── PetDetails.jsx
+│   │   ├──
 │   │   └── AdminDashboard.jsx
 │
 │   ├── context/                   # Global state management (Context API)(not created)
@@ -129,7 +132,9 @@ SupplyCard.js	        For showing pet supplies (image, name, price, etc.)
 ReviewForm.js	        For submitting reviews
 ReviewList.js	        For displaying all reviews
 CartItem.js             For rendering items inside the Cart
-FavouriteItem.js	    For rendering each favourite item
+FavouriteItem.js        For rendering each favourite item
+ReviewCard.jsx          For Review viewing
+ScrollToTopButton.jsx 	For scrolling up Arrow    
 
 
 

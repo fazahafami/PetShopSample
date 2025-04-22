@@ -6,7 +6,7 @@
     background-color: #FBFBEB !important;
 }
 
-.nav-link-custom {
+.nav-link-custom,h4 {
     color: #63373f !important;
     font-weight: bold !important;
   }
@@ -57,4 +57,5 @@
   .cta-btn:hover {
     background-color: #d86c00 !important;
   }
+
   

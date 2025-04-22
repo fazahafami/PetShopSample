@@ -16,7 +16,7 @@ function LandingPage() {
         <div className='carousel-wrapper'>
           <Carousel>
             {/* Slide 1 */}
-            <Carousel.Item>
+            <Carousel.Item interval={5000}>
               <img
                 className="d-block w-100 hero-image"
                 src="https://i.pinimg.com/736x/be/c9/cc/bec9cc8b9cdbe891f18888067f36b5ab.jpg" // first image
@@ -30,7 +30,7 @@ function LandingPage() {
             </Carousel.Item>
 
             {/* Slide 2 */}
-            <Carousel.Item>
+            <Carousel.Item interval={5000}>
               <img
                 className="d-block w-100 hero-image"
                 src="https://i.pinimg.com/474x/73/a0/6c/73a06cdef60ae8084364d64701e24d28.jpg" // second image
@@ -44,7 +44,7 @@ function LandingPage() {
             </Carousel.Item>
 
             {/* Slide 3 */}
-            <Carousel.Item>
+            <Carousel.Item interval={5000}>
               <img
                 className="d-block w-100 hero-image"
                 src="https://i.pinimg.com/474x/83/dc/a4/83dca4efe76a74d77f4015fbe906ea6a.jpg" // third image
