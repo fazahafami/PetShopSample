@@ -55,6 +55,7 @@ function Footer() {
                       type="email"
                       placeholder="Email Address"
                       className="mb-2"
+                      id="contact"
                     />
                   </Col>
                   <Col xs={4}>

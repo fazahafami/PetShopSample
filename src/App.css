@@ -7,12 +7,54 @@
 }
 
 .nav-link-custom {
-    color: #563037 !important;
+    color: #63373f !important;
+    font-weight: bold !important;
   }
   
   .nav-link-custom:hover {
-    color: #402922 !important; /* darker on hover */
+    color: #34221c !important; /* darker on hover */
+  }
+/* Landing.css */
+.carousel-wrapper {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+.hero {
+    padding: 0;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+  }
+  .hero-image {
+    height: 100vh;
+    object-fit: cover;
+  }
+  .carousel-caption {
+    position: absolute;
+    margin-bottom: 100px;
+  } 
+
+  .carousel-caption h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .carousel-caption p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
   }
 
-
+  .cta-btn {
+    background-color: #fc830b !important;
+    border: none !important;
+    color: white;
+    font-weight: bold !important;
+    padding: 10px 20px;
+    text-transform: uppercase;
+  }
+  
+  .cta-btn:hover {
+    background-color: #d86c00 !important;
+  }
   

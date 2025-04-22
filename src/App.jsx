@@ -3,8 +3,6 @@ import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/Header'
 import Footer from './components/Footer'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHouse } from '@fortawesome/free-solid-svg-icons';
 import { Route, Routes } from 'react-router-dom';
 import AdminDashboard from './pages/AdminDashboard';
 import Cart from './pages/Cart';
