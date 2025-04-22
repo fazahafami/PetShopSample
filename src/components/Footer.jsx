@@ -42,7 +42,7 @@ function Footer() {
               <h5 className='mb-3'>Our Team</h5>
               <p>Athul C Anu</p>
               <p>Fathima A</p>
-              <p>Mohammmad Zeeshan</p>
+              <p>Mohammad Zeeshan</p>
               <p>Nandana Raveendran</p>
             </Col>
 

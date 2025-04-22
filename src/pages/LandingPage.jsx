@@ -67,13 +67,13 @@ function LandingPage() {
             <Col md={10} className="text-center">
               <h2 className="mb-4" style={{ color: '#563037' }}>About Us</h2>
               <p style={{ fontSize: '1.1rem', lineHeight: '1.8' }}>
-                At <strong>PawMart</strong>, we believe pets aren’t just animals—they’re family. That’s why we've built a one-stop destination where pet lovers can find everything they need, all under one roof. Whether you're welcoming a new furry friend into your home or shopping for essentials, we're here to make your journey joyful and stress-free.
+                At <strong>PawMart</strong>, we believe pets aren’t just animals - they’re family. That’s why we've built a one-stop destination where pet lovers can find everything they need, all under one roof. Whether you're welcoming a new furry friend into your home or shopping for essentials, we're here to make your journey joyful and stress-free.
               </p>
               <p style={{ fontSize: '1.1rem', lineHeight: '1.8' }}>
-                From playful puppies to gentle senior cats, our carefully curated pet collection ensures healthy, happy companions for every kind of household. We also offer high-quality pet supplies—food, toys, grooming gear, and more—handpicked to keep tails wagging and whiskers twitching.
+                From playful puppies to gentle senior cats, our carefully curated pet collection ensures healthy, happy companions for every kind of household. We also offer high-quality pet supplies - food, toys, grooming gear, and more-handpicked to keep tails wagging and whiskers twitching.
               </p>
               <p style={{ fontSize: '1.1rem', lineHeight: '1.8' }}>
-                Our team is passionate about animal welfare and committed to connecting people with pets through responsible practices. When you choose PawMart, you're not just shopping—you’re joining a community that loves, respects, and celebrates the joy that pets bring into our lives.
+                Our team is passionate about animal welfare and committed to connecting people with pets through responsible practices. When you choose PawMart, you're not just shopping - you’re joining a community that loves, respects, and celebrates the joy that pets bring into our lives.
               </p>
             </Col>
           </Row>

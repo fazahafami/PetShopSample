@@ -3,11 +3,6 @@ import { Card } from 'react-bootstrap';
 
 function ReviewCard() {
 
-    const [showModal, setShowModal] = useState(false);
-
-    const handleClose = () => setShowModal(false);
-    const handleShow = () => setShowModal(true);
-
     return (
         <div>
             {/* review card section */}
